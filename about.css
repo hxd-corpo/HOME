@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+body {
+    color: cyan;
+    background-color: black;
+    overflow-x: hidden;
+}
+.main{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.nav{
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    text-align: right;
+    justify-content: flex-end;
+    position: relative;
+}
+.n{
+    font-weight: 5px;
+    text-align: center;
+    width: 100px;
+    height: 19px;
+    color: cyan;
+    padding: 20px;
+    transition: 0.5s;
+    position: relative;
+    border-style: solid;
+    border-color: cyan;
+    border-radius: 30px;
+    background-color: rgb(29, 29, 29);
+}
+.a, .m{
+    font-weight: 5px;
+    text-align: center;
+    width: 100px;
+    height: 19px;
+    color: cyan;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.3s;
+    position: relative;
+}
+.n:hover{
+    color: black;
+    border-style: solid;
+    border-color: cyan;
+    border-radius: 30px;
+    background-color: cyan;
+}
+.a:hover{
+    color: black;
+    border-style: solid;
+    border-color: cyan;
+    background-color: cyan;
+}
+.m:hover{
+    color: black;
+    border-style: solid;
+    border-color: cyan;
+    background-color: cyan;
+}
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    margin: 85px auto;
+    margin-right: auto;
+    position: relative;
+    letter-spacing: 8px;
+}
+.para {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin: auto 200px;
+    padding: auto auto;
+    position: relative;
+    letter-spacing: 1.5px;
+}
+.f {
+    color: rgb(49, 252, 42);
+}
+.s {
+    color: red;
+}
+#h {
+    color: rgb(226, 226, 60);
+}
+#i {
+    color: rgb(49, 252, 42);
+}
+#x {
+    color: red;
+}
+
+.cp{
+    text-align: right;
+    color: rgb(137, 141, 141);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 550px){
+    h1 {
+        font-size: x-large;
+        letter-spacing: 5px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav{
+        font-size: medium;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        margin: 5px auto;
+        text-align: right;
+        justify-content: center;
+        position: relative;
+    }
+    .n{
+        font-weight: 5px;
+        text-align: center;
+        width: 65px;
+        height: 17px;
+        color: cyan;
+        padding: 20px;
+        transition: 0.5s;
+        position: relative;
+        border-style: solid;
+        border-color: cyan;
+        border-radius: 30px;
+        background-color: rgb(29, 29, 29);
+    }
+    .a, .m{
+        font-weight: 5px;
+        text-align: center;
+        width: 65px;
+        height: 17px;
+        color: cyan;
+        padding: 20px;
+        transition: 0.5s;
+        position: relative;
+    }
+    .n:hover{
+        color: black;
+        border-style: solid;
+        border-color: cyan;
+        border-radius: 30px;
+        background-color: cyan;
+    }
+    .a:hover{
+        color: black;
+        border-style: solid;
+        border-color: cyan;
+        border-radius: 30px;
+        background-color: cyan;
+    }
+    .m:hover{
+        color: black;
+        border-style: solid;
+        border-color: cyan;
+        border-radius: 30px;
+        background-color: cyan;
+    }
+    .para {
+        font-size: 13px;
+        margin: auto auto;
+        padding: auto auto;
+    }
+    .cp{
+        text-align: center;
+        font-size: 10.9px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    
+}
+
+@media only screen and (min-width: 520px) {
+    .para {
+        margin: auto auto;
+    }
+    .cp {
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 22px;
+    }
+}
